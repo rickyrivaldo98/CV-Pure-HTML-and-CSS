@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/test.css" />
+    <title>CV Ricky</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#test1">Pengalaman</a></li>
+      <li><a href="#test2">Prestasi</a></li>
+    </ul>
+
+    <!-- isi -->
+    <div
+      id="home"
+      style="
+        padding: 20px;
+        margin-top: 30px;
+        /* background-color: #75e6da; */
+        background-color: white;
+        height: 350px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+        -moz-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+        box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+      "
+    >
+      <img
+        id="pp"
+        src="https://media-exp1.licdn.com/dms/image/C5603AQHG8I_10el3lA/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=boIr0Ydg5Cx9p4TGChSU_BlgxnS88IVKru1hqg23Esk"
+        alt=""
+      />
+      <h1>Ricky Rivaldo</h1>
+      <i>Batam, 6 Desember 1998</i> <br />
+      <i>"Semua Bisa Di Akalin"</i>
+      <p>
+        Hello everyone, my name is Ricky Rivaldo, you can call me Ricky or
+        Tendou, I'm a person thirsty for experience, so as much as possible I
+        use the time I have to explore experiences and forge myself deeper. My
+        life motto "Everything Can Be Done" means that I am sure that there must
+        be a way out, and that everything must have an answer, maybe not now,
+        maybe missed but does not make us stop working and grow.
+      </p>
+      <div class="row">
+        <h4>Media Social:</h4>
+        <div class="col-2">
+          <a href="https://www.instagram.com/rickytendou/" target="_blank">
+            <img
+              src="https://www.freepnglogos.com/uploads/best-instagram-logo-download-here-15.png"
+              alt="hayo"
+              style="width: 25%"
+            />
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="https://www.linkedin.com/in/rickyrivaldo98/" target="_blank">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUAe7X///8AcbDi6/MAd7N9rM4Ac7G70eStyN/I2ukAebQAdbI5j79Unsjo8vjM4u7Y6fIfiLy00uWew9sHfrZvqs52qc3T5O+ly+FvpMpopcuMudcUg7qny+Hg7/ZDlMKAtNTw9/u92eljoMiTuNWBttWUwNukw9s5k8K61+jZwmoZAAAEoUlEQVR4nO2dbVvbIBSGgTJUSGjStNtsrX1x69b//weXtNMaDVR30YOePfcXP5RcF7e8JhxAyEeqpqynggV12VRPXuLv30mhnM6ds2Rop4pJz9CXxubOVWKsKf3JcCz4FN8JLcaPhmPFrQCPWDU+GnrBU7BVFP5gWHKsokd02RlOTO58XBA1aQ0LrnW0wxZSVCp3Li6KqkTjcmfiorhGMO5nOnQp6tx5uDC1YDLZBgAAAAAAAAAAAAAAAADAf43VRrUYx3SJ1Ro9b8YjX00WhWK4BmnN3fIprkrez/gFHLmd7FGteMU72GO0UY81p3gAa6tXgqwUrXtdgh1zNhEBZjEoKDd3XLqb6bCgZBNdZb6HDCWPQrR2EzRsWBSifggKSs+iO3051verae7cpUBtI4Ylh4aoRhHDrxyGxKjhFw6G5lvEkMW0xiwjhizijd06Yqg5GNoiLLhlMeILNfTqxKgZtpOaeUiQx5RGRAqRSRG2hRhoiXserbDDDdbTikM/+oiZDQhOORkKU25eVlFuG+DctPem7+d82uATRuzuj3qb7Vxx6UX7OHW3ur19KDRTvwNaa2uZNUAAwEfgsLQdoN+pukjKF6vG1radlnPmiOs6MEKlPub6JszDc0X3I5JycVK01hlRr+Y/d8ur9perSbOYlYU1uc7pePu3NnMVSXn9OAlqTcrd2L9K4G8WqzzxAWkNtSqWm2Aiv5tmCBBIaWhNMbzYemJfk894Uxrq5oxfR0N98EpCQ32uAI/4grY5JjO0JvzR7gUz0pqazNBMIj+/YEGpmMpQlW8XlPInoWIywzfX0QMlXVtMZbh6l6CUNdnAmMjw1zta4YExWZBnKsPNOw3lmqqeJjKMRQMMs6F63Uhk+A/siPrTfIYbovXXfIZyTTNBzWhY0VTTjIZyRVKIOQ1p+pqchhXJkJjTkGbqltVwRtEQsxpOKKppVkOS8SKrIUlYWV7D3wQNMa8hxStUckO/XTZNs9zfvyXxkqAhpjWs1nW3R7NbdVJ3X89/P90ShM6lNPRz87zrcKo8V5AUwYEJDV8flK71uc83n6qWDh6UrmJB1pJkR0cyQz8YCGfPfEcliCRPZjgb7vhjUdaSZM9KKsP7UIsy0c9wBHtWUhkuQmO3ji5oEAz5qQzDr3rTzb/8Yz6c4SY8sKnYrpzdpzEchwe2yCZVKb9/GsPInmEX2El97rkPZngdMfwSeY5gQ8DlDXXMkGDqndlwzN7wG/taSnDhSGbDEQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMIQhjCEIQxhCEMYwhCGMIQhDGEIQxjCEIYwhCEMYQhDGMKwj7kZBfG3z7druV/hlKMf4V129taHn7sh2CYbO0e4vx8tdo5wbBuhjTzH8Px+AAAAAAAAAAAAAAAAAAAAAAAA4ESdOwMXphYl46vfRXcqsWiy3LlLhmsEwVGLOVGVoDjlPB+2kILiZN58mH1rKBn3Nd3p562hF1zrqRX+YDh8DQMDrOouPekMB67S4IAWh1tdDobSl+yK0ZrSy5OhlJNCOT4FqZ0q9n/NxFP0bdWUXOaoddmcbjr5A5XhWJeQSJXvAAAAAElFTkSuQmCC"
+              alt=""
+              style="width: 23%"
+            />
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="https://www.facebook.com/rickyrivaldo98/" target="_blank">
+            <img
+              src="https://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19751.png"
+              alt=""
+              style="width: 30%"
+            />
+          </a>
+        </div>
+        <div class="col-2">
+          <a href="https://github.com/rickyrivaldo98" target="_blank">
+            <img
+              src="https://image.flaticon.com/icons/png/512/25/25231.png"
+              alt=""
+              style="width: 25%"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div
+      style="
+        padding: 20px;
+        /* margin-top: 30px; */
+        /* background-color: #d4f1f4; */
+        background-color: white;
+        border-radius: 15px;
+        /* height: 1500px; */
+        -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+        -moz-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+        box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.62);
+      "
+    >
+      <!-- pengalaman -->
+      <div id="test1">
+        <h1>Pengalaman</h1>
+        <div id="pengalaman">
+          <h3>
+            1. Core Team Google Developer Students Clubs Diponegoro University
+          </h3>
+          <h4>Sep 2020 - Saat Ini</h4>
+          <h4>Semarang, Jawa Tengah</h4>
+          <p>
+            Developer Student Clubs are university based community groups for
+            students interested in Google developer technologies. Students from
+            all undergraduate or graduate programs with an interest in growing
+            as a developer are welcome. By joining a DSC, students grow their
+            knowledge in a peer-to-peer learning environment and build solutions
+            for local businesses and their community.
+          </p>
+          <br />
+          <h3>2. Co-Founder Saraf Design</h3>
+          <h4>Agu 2019 - Saat Ini</h4>
+          <h4>Semarang, Jawa Tengah</h4>
+          <p>
+            Saraf Design is a technology-based startup to help people who need
+            graphic design services, video editing, web creation and
+            photography. as one of the co-founder I am responsible for running
+            this startup and directing it according to our original purpose in
+            forming this startup. from Semarang with love to Indonesia
+          </p>
+          <br />
+          <h3>
+            3. Assistan Professor of Computer Architectur Organization in
+            Diponegoro University
+          </h3>
+          <h4>Feb 2020 - Jul 2020</h4>
+          <h4>Semarang, Jawa Tengah</h4>
+          <p>
+            I am responsible for helping the work of computer architecture
+            organization professor and helping teach computer architecture
+            organization courses
+          </p>
+          <br />
+          <h3>4. Web Developer Intern</h3>
+          <h4>Des 2019 - Mar 2020</h4>
+          <h4>Semarang, Jawa Tengah</h4>
+          <p>
+            I am responsible for working on the community satisfaction web
+            system in Meteorology, Climatology, and Geophysical Agency of Center
+            Java
+          </p>
+          <br />
+          <h3>5. Head of Business IT</h3>
+          <h4>Apr 2019 - Jan 2020</h4>
+          <h4>Semarang, Jawa Tengah</h4>
+          <p>
+            I am responsible for developing IT business knowledge to members and
+            facilitating IT business competition training in Computer Science
+            Diponegoro University
+          </p>
+          <br />
+          <h3>
+            6. Chairman of The Comission 4 Senat Faculty of Science and
+            Mathematics
+          </h3>
+          <h4>Jan 2019 - Des 2019</h4>
+          <h4>Semarang, Jawa Tengah</h4>
+          <p>
+            I am responsible for directing and leading Commission 4 whose task
+            is to receive all the aspirations of students at the Diponegoro
+            University's Faculty of Science and Mathematics and advocate for
+            those responsible
+          </p>
+          <br />
+          <h3>7. Vice Chairman Himpunan Mahasiswa Informatika UNDIP</h3>
+          <h4>Jan 2018 - Des 2018</h4>
+          <h4>Semarang, Jawa Tengah</h4>
+          <p>
+            I am responsible for assisting the chairman in carrying out his
+            duties, taking care of the internal organization, and taking care of
+            the community and bureau in Computer Science Diponegoro University
+          </p>
+        </div>
+        <br />
+      </div>
+
+      <!-- prestasi -->
+      <div id="test2">
+        <h1>Prestasi</h1>
+        <div id="pengalaman">
+          <h3>1. Bronze Medal Innovation TIE Taiwan</h3>
+          <h4>1 Sep 2019</h4>
+          <h4>Taiwan Innovation Expo 2019</h4>
+          <br />
+          <h3>2. Bronze Medal Innovation ICT Malaysia</h3>
+          <h4>1 April 2018</h4>
+          <h4>Malaysia Technology Expo</h4>
+          <br />
+          <h3>
+            3. Peserta Terbaik 3 Training Legislatif Universitas Diponegoro
+          </h3>
+          <h4>1 April 2019</h4>
+          <h4>Senat Mahasiswa Universitas Diponegoro</h4>
+          <br />
+          <h3>4. Juara 1 LKTI</h3>
+          <h4>1 Maret 2019</h4>
+          <h4>Informatics Internal Competition</h4>
+          <br />
+          <h3>5. Juara 1 LKTI</h3>
+          <h4>1 April 2018</h4>
+          <h4>Lomba.IF</h4>
+          <br />
+          <h3>6. Paskibraka</h3>
+          <h4>1 Agustus 2016</h4>
+          <h4>Pemerintah Kota Batam</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
